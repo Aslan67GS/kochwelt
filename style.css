@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: "raleway", sans-serif;
+}
+.textPic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3 {
+    padding: 0 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.überschrift {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.textPic2 {
+    display: flex;
+}
+
+.p {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+.wokImg {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 140px;
+    background-color: rgb(47, 48, 47);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.socials {
+    display: flex;
+}
+
+.logo {
+    filter: invert(100%);
+    height: 50px;
+}
+
+.footerPic {
+    display: flex;
+    margin: 0 5px;
+    height: 50px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
