@@ -70,3 +70,101 @@ body {
     object-fit: cover;
     border-radius: 5px;
 }
+
+.dönerText {
+    display: flex;
+    justify-content: left;
+    font-size: 32px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.dönerImg {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.infoBox {
+    display: flex;
+    justify-content: left;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.miniInfo {
+    display: flex;
+    margin: 24px;
+    margin-left: 0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: rgb(238, 235, 235);
+    font-size: 16px;
+}
+
+.miniImg {
+    height:24px;
+    width: 24px;
+    object-fit: cover;
+    border-radius: 10px;
+    align-items: center;
+    padding-right: 8px;
+}
+
+.textBox {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.textInBox {
+    font-size: 18px;
+    margin-right: 16px;
+}
+
+.inputBox {
+    display: flex;
+    height: 33px;
+    width: 150px;
+    border: 1px solid rgb(230, 228, 228);
+}
+
+.btn {
+    background-color: rgb(13, 128, 23);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.zutatBox {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.allList {
+    padding: 14px;
+    padding-left: 24px;
+}
+
+.headline {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.listColor {
+    background-color: rgb(238, 235, 235);
+    border-radius: 5px;
+    font-size: 16px;
+}
