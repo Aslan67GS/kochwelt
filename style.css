@@ -127,10 +127,11 @@ body {
 
 .inputBox {
     display: flex;
-    height: 33px;
-    width: 150px;
+    height: 34px;
+    width: 140px;
     border: 1px solid rgb(230, 228, 228);
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .btn {
